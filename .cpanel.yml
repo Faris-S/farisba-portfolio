@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/farisba/public_html
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp -r /home/farisba/repositories/farisba-portfolio/* $DEPLOYPATH
